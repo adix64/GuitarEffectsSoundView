@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2363c06f-058a-4f9f-82a9-4d4c087c1e9e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6e13d644-bbf3-4758-a056-98aa1746a5de}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c969623d-e54b-4e2b-9e97-8a58e8ac47c1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\STM_Main">
+      <UniqueIdentifier>{26c31868-fdd9-4cff-8f17-fabeadd4d7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuitarEffects">
+      <UniqueIdentifier>{39cefc2e-f16e-404a-af4b-f19a89eac2a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\asio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\asiodrivers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\asiolist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\iasiothiscallresolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RtAudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\audioprobe.cpp">
+      <Filter>Source Files\STM_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\NoiseSupressor.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Overdrive.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Reverb.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Distorsion.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Delay.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FFT.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Fuzz.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Compressor.cpp">
+      <Filter>Source Files\GuitarEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WAVhandling.cpp">
+      <Filter>Source Files\STM_Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\asio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\asiodrivers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\asiodrvr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\asiolist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\asiosys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ginclude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\iasiodrv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\iasiothiscallresolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RtAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\audioprobe.hpp">
+      <Filter>Source Files\STM_Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GuitarEffects.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WAVhandling.hpp">
+      <Filter>Source Files\STM_Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
